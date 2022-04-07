@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# downloading paru
-wget https://aur.archlinux.org/cgit/aur.git/snapshot/paru.tar.gz
+# downloading yay 
+wget https://aur.archlinux.org/cgit/aur.git/snapshot/yay-bin.tar.gz
 
-# extracting paru 
-tar -xvf paru.tar.gz
+# extracting yay-bin
+tar -xvf yay-bin.tar.gz
 
-# changing directory
-cd paru
+cd yay-bin
+makepkg -si --noconfirm
 
-# making package
-makepkg -si
+yay -Syy paru-bin --noconfirm
+paru -Rs yay-bin
