@@ -10,4 +10,4 @@ cd yay-bin
 makepkg -si --noconfirm
 
 yay -Syy paru-bin --noconfirm
-paru -Rs yay-bin
+paru -Rs yay-bin --noconfirm
