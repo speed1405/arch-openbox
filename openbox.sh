@@ -1,4 +1,4 @@
-#!/bib/bash
+#!/bin/bash
 
 mkdir -p ~/.config/openbox
 cp -a /etc/xdg/openbox/ ~/.config/
@@ -10,4 +10,4 @@ echo "lxpanel &" >> ~/.config/openbox/autostart
 echo "nitrogen --restore &" >> ~/.config/openbox/autostart
 
 #using menumaker 
-mmaker openbox -t xterm
+mmaker openbox -f -t xterm
