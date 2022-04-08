@@ -11,3 +11,5 @@ echo "nitrogen --restore &" >> ~/.config/openbox/autostart
 
 #using menumaker 
 mmaker openbox -f -t xterm
+openbox --reconfigure
+openbox --exit
