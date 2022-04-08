@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo pacman -Syy obconf lxpanel lxapperance picom htop nitrogen xfce4-settings menumaker archlinux-wallpaper lxapperance-obconf --noconfirm
 
 mkdir -p ~/.config/openbox
 cp -a /etc/xdg/openbox/ ~/.config/
